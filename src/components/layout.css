@@ -1,0 +1,149 @@
+/****************** Show/Hide *******************/
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.navLogo {
+	height: 80px;
+}
+@media screen and (max-width: 480px){
+	.navLogo{
+		height: 50px;
+	}
+}
+
+.navbar.active {
+    background-color: linear-gradient(90deg, rgba(0,0,0,0.5)0%, rgba(0,0,0,0.8)100%);
+  }
+
+  #navbar-nav {
+    display: flex;
+  }
+
+  nav div ul {
+    list-style: none;
+  }
+
+  nav div ul li {
+    list-style: none;
+    outline: white;
+    outline-color: white;
+    background-color: transparent!important;
+    background: transparent!important;
+
+  }
+  nav div ul li a{
+    list-style: none;
+    outline: white;
+    outline-color: white;
+    color: white;
+    border: none;
+  }
+
+@media screen and (max-width:991px) {
+  #navbar-nav{
+    display: none!important;
+  }
+}
+
+
+
+@media screen and (max-width:780px) {
+#navbar-nav {
+    display: none;
+}
+}
+
+.NoDesktop {
+    display: none;
+}
+
+.NoMobile {
+    display: block;
+}
+
+
+@media screen and (min-width: 2400px) {
+
+    .NoDesktop {
+        display: none;
+    }
+    
+    .NoMobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .NoDesktop {
+        display: none;
+    }
+    
+    .NoMobile {
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 1280px) {
+    .NoDesktop {
+        display: none;
+    }
+    
+    .NoMobile {
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 360px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    
+}

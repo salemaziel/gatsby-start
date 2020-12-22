@@ -1,0 +1,47 @@
+.SectionHeader {
+  // Add bottom margin if element below
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  &__subtitle {
+    // Subtitle text generally isn't very long
+    // so usually looks better to limit width.
+    max-width: 700px;
+    // So we can have max-width but still
+    // have alignment controlled by text-align.
+    display: inline-block;
+  }
+  &__description {
+    // Subtitle text generally isn't very long
+    // so usually looks better to limit width.
+    color: white;
+    font-weight: bold;
+    // So we can have max-width but still
+    // have alignment controlled by text-align.
+    display: inline-block;
+  }
+  &__descriptions {
+    // Subtitle text generally isn't very long
+    // so usually looks better to limit width.
+    /*color: white;
+    font-weight: bold;*/
+    // So we can have max-width but still
+    // have alignment controlled by text-align.
+    display: block;
+  }
+  &__listitem {
+    text-align: center;
+    list-style: none;
+    margin: 1rem auto;
+    &__title {
+      font-weight: bold;
+      text-align: center;
+      list-style: none;
+    }
+  }
+  ul {
+    padding: 0;
+    padding-left: 0;
+  }
+}
